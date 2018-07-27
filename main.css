@@ -2,6 +2,11 @@ button {
     font-family: Copperplate;
 }
 
+.img-box {
+    display: grid;
+    height: 100%;
+}
+
 .logo {
     max-width: 100%;
     max-height: 100vh;
