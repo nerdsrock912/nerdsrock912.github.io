@@ -3,6 +3,7 @@ button {
 }
 
 .logo {
-    width: fit-screen;
-    height: 10%;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
 }
