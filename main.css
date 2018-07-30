@@ -1,10 +1,98 @@
+@font-face{
+    font-family: "Fixedsys";
+    src: url(vgafix.fon);
+}
 button {
     font-family: monospace;
+    background-color: #23AB23;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
 }
 
-.img-box {
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: repeating-linear-gradient(45deg, #007A00, #025202);
+    margin: 0;
+}
+
+.header {
+    background-color: #23AB23;
+    padding: 20px;
+    text-align: center;
     display: grid;
     height: 50%;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    font-family: monospace;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.column {
+    float: left;
+    padding: 20px;
+}
+
+.column.side {
+    width: 25%;
+}
+
+.column.middle {
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-wdth: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #236723;
+}
+
+button:active {
+    background-color: #236723;
+    box-shadow: 0 5px #555;
+    transform: translateY(4px);
 }
 
 .logo {
@@ -13,7 +101,10 @@ button {
     margin: auto;
 }
 
-body {
-    background: linear-gradient(45deg, #007A00, black);
-    margin: 20px;
+ul {
+    list-style-type: none;
+}
+
+article {
+    font-family: "Fixedsys", 'Courier New', Courier, monospace;
 }
