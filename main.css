@@ -172,9 +172,10 @@ ul {
 }
 
 article {
-    font-family: "Fixedsys", 'Courier New', Courier, monospace;
+    font-family: Fixedsys, 'Courier New', Courier, monospace;
 }
 
 .footer p {
-    font-family: "Fixedsys";
+    font-family: Fixedsys;
+    color: #aaa;
 }
