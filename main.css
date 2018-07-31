@@ -1,21 +1,69 @@
 @font-face{
-    font-family: "Fixedsys";
+    font-family: Fixedsys;
     src: url(fonts/vgafix.fon);
 }
 
 @font-face {
-    font-family: "Ubuntu";
+    font-family: Ubuntu;
     src: url(fonts/ubuntu/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu;
     src: url(fonts/ubuntu/Ubuntu-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Ubuntu;
     src: url(fonts/ubuntu/Ubuntu-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Ubuntu;
     src: url(fonts/ubuntu/Ubuntu-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Ubuntu;
     src: url(fonts/ubuntu/Ubuntu-Light.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu;
     src: url(fonts/ubuntu/Ubuntu-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu;
     src: url(fonts/ubuntu/Ubuntu-Medium.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu;
     src: url(fonts/ubuntu/Ubuntu-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(fonts/ubuntu/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(fonts/ubuntu/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Merriweather";
+    src: url(fonts/MerriweatherSans/MerriweatherSans-Regular.ttf);
 }
 button {
     font-family: "Ubuntu";
+    font-style: normal;
     background-color: #23AB23;
     display: inline-block;
     padding: 15px 25px;
@@ -119,4 +167,12 @@ ul {
 
 article {
     font-family: "Fixedsys", 'Courier New', Courier, monospace;
+}
+
+.column {
+    font-family: "Merriweather";
+}
+
+.footer p {
+    font-family: "Fixedsys";
 }
