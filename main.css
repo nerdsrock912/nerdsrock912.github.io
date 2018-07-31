@@ -58,7 +58,7 @@
 }
 
 @font-face {
-    font-family: "Merriweather";
+    font-family: Merriweather;
     src: url(fonts/MerriweatherSans/MerriweatherSans-Regular.ttf);
 }
 button {
@@ -121,10 +121,16 @@ body {
 
 .column.side {
     width: 25%;
+    background-color: #024d08;
+    color: #024d08;
 }
 
 .column.middle {
     width: 50%;
+    border-left: 3px ridge black;
+    border-right: 3px ridge black;
+    font-family: Merriweather;
+    color: #aaa;
 }
 
 .row:after {
@@ -140,17 +146,17 @@ body {
 }
 
 .footer {
-    background-color: #f1f1f1;
+    background-color: #047604;
     padding: 10px;
     text-align: center;
 }
 
 button:hover {
-    background-color: #236723;
+    background-color: #297729;
 }
 
 button:active {
-    background-color: #236723;
+    background-color: #297729;
     box-shadow: 0 5px #555;
     transform: translateY(4px);
 }
@@ -167,10 +173,6 @@ ul {
 
 article {
     font-family: "Fixedsys", 'Courier New', Courier, monospace;
-}
-
-.column {
-    font-family: "Merriweather";
 }
 
 .footer p {
