@@ -1,9 +1,21 @@
 @font-face{
     font-family: "Fixedsys";
-    src: url(vgafix.fon);
+    src: url(fonts/vgafix.fon);
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url(fonts/ubuntu/Ubuntu-Regular.ttf);
+    src: url(fonts/ubuntu/Ubuntu-Bold.ttf);
+    src: url(fonts/ubuntu/Ubuntu-BoldItalic.ttf);
+    src: url(fonts/ubuntu/Ubuntu-Italic.ttf);
+    src: url(fonts/ubuntu/Ubuntu-Light.ttf);
+    src: url(fonts/ubuntu/Ubuntu-LightItalic.ttf);
+    src: url(fonts/ubuntu/Ubuntu-Medium.ttf);
+    src: url(fonts/ubuntu/Ubuntu-MediumItalic.ttf);
 }
 button {
-    font-family: monospace;
+    font-family: "Ubuntu";
     background-color: #23AB23;
     display: inline-block;
     padding: 15px 25px;
