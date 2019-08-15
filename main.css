@@ -146,10 +146,30 @@ body {
     }
 }
 
+a {
+    text-decoration-color: thistle;
+    text-decoration-style: none;
+}
+
+a:hover {
+    text-decoration-color: #767;
+}
+
 .footer {
     background-color: #047604;
     padding: 10px;
     text-align: center;
+}
+
+.game-item {
+    padding: 24px;
+    position: absolute;
+}
+
+.game-item img {
+    border-width: 5em;
+    border-style: groove;
+    border-color: darkgreen;
 }
 
 button:hover {
@@ -176,7 +196,7 @@ article {
     font-family: Fixedsys, 'Courier New', Courier, monospace;
 }
 
-.footer p {
+#footer-text {
     font-family: Fixedsys;
     color: #aaa;
 }
