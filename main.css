@@ -147,12 +147,12 @@ body {
 }
 
 a {
-    text-decoration-color: thistle;
-    text-decoration-style: none;
+    text-emphasis-color: thistle;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration-color: #767;
+    text-emphasis-color: #767;
 }
 
 .footer {
@@ -166,8 +166,8 @@ a:hover {
 }
 
 .game-item img {
-    border-width: 1em;
-    border-style: groove;
+    border-width: 2px;
+    border-style: double;
     border-color: darkgreen;
 }
 
