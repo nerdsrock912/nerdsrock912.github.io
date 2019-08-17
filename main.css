@@ -162,12 +162,11 @@ a:hover {
 }
 
 .game-item {
-    padding: 24px;
-    position: absolute;
+    padding: 4px;
 }
 
 .game-item img {
-    border-width: 5em;
+    border-width: 1em;
     border-style: groove;
     border-color: darkgreen;
 }
